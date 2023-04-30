@@ -376,7 +376,7 @@ body {
     .menu2-box {
         width: calc(60px - 20px);
         height: calc(60px - 30px);
-        padding: 15px 10px;
+        padding: 15px 0px 15px 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -394,6 +394,11 @@ body {
     .user-icon-img {
     display: none;
 }
+
+.menu-icon {
+    padding-right: 6px;
+}
+
 
 .search-icon-img,
 .cart-icon-img {
