@@ -17,7 +17,7 @@ body{
 
 
 body {
-  background: #fdf8f5;
+  background: #ffffff;
   font-family: Helvetica , Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -186,7 +186,7 @@ body {
 
 .user-icon-img,
 .search-icon-img,
-.cart-icon-img {
+.bag-icon-img {
     width: 23px;
     height: 23px;
     background-repeat: no-repeat;
@@ -401,7 +401,7 @@ body {
 
 
 .search-icon-img,
-.cart-icon-img {
+.bag-icon-img {
     width: 21px;
     height: 21px;
     background-repeat: no-repeat;
@@ -518,7 +518,7 @@ body {
 
 .banner2-img-one {
 
-    height: 90vh;
+    height: 50vh;
 
     
 

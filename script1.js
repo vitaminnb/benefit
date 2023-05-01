@@ -33,12 +33,15 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
 
-    slidesPerView: 1,
+    slidesPerView: 1.3,
     slidesPerGroup: 1,
     observer: true,
     observeParents: true,
-    spaceBetween: 24,
-    centeredSlides: false,
+    spaceBetween: 10,
+    centeredSlides: true,
+    roundLengths: true,
+    loop: true,
+    loopAdditionalSlides: 30,
 
     breakpoints: {
     
