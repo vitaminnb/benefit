@@ -50,6 +50,8 @@ var swiper = new Swiper(".mySwiper", {
         900: {
           slidesPerView: 3,  //브라우저가 768보다 클 때
           spaceBetween: 10,
+          centeredSlides: false,
+          
         },
 
       },
