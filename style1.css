@@ -120,7 +120,7 @@ body {
     z-index: 100;
     padding: 0px 50px;
     width: calc(100vw - 100px);
-    height: 60px;
+    height: 50px;
     display: flex;
     align-items: center;
     background-color: #ad6666;
@@ -162,7 +162,7 @@ body {
 
 
 .brand-icon-img {
-    width: 70%;
+    width: 60%;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -213,7 +213,7 @@ body {
 
 .banner-img-one {
     width: 50%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -225,7 +225,7 @@ body {
 
 .banner-img-two {
     width: 50%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -237,7 +237,7 @@ body {
 .banner-img-three,
 .banner-img-four {
     width: 50%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -249,7 +249,7 @@ body {
 .banner-img-five,
 .banner-img-six {
     width: 50%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -267,7 +267,7 @@ body {
     position: absolute;
     display: flex;
     width: 100vw;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     align-items: center;
     margin-bottom: 50px;
     flex-direction: column;
@@ -354,11 +354,27 @@ body {
         z-index: 100;
         padding: 0px 10px;
         width: calc(100vw - 20px);
-        height: 60px;
+        height: 50px;
         display: flex;
         align-items: center;
         background-color: #ad6666;
         justify-content: center;
+    }
+
+
+
+    .brand-icon-img {
+        width: 63%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    
+    
+    .brand-icon-img::after {
+        content: "";
+        display: block;
+        padding-bottom: 40%;
     }
 
     .menu {
@@ -370,12 +386,12 @@ body {
     .menu2 {
         display: block;
         width: 33%;
-        height: 60px;
+        height: 50px;
     }
 
     .menu2-box {
-        width: calc(60px - 20px);
-        height: calc(60px - 30px);
+        width: calc(50px - 20px);
+        height: calc(50px - 30px);
         padding: 15px 0px 15px 0px;
         display: flex;
         flex-direction: column;
@@ -384,7 +400,7 @@ body {
     }
 
     .menu2-box > div {
-        width: 25px;
+        width: 20px;
         height: 2px;
         background-color: #fff;
         
@@ -396,7 +412,7 @@ body {
 }
 
 .menu-icon {
-    padding-right: 6px;
+    padding-right: 2px;
 }
 
 
@@ -413,7 +429,7 @@ body {
 
     .banner-img-one {
         width: 100%;
-        height: calc(100vh - 60px);
+        height: calc(100vh - 50px);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
@@ -438,7 +454,7 @@ body {
 
     .banner-img-three{
     width: 100%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -460,7 +476,7 @@ body {
 
 .banner-img-six {
     width: 190%;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 50px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
